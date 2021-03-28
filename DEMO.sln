@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Ad Astra", "02. Ad Astr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. The Pianist", "03. The Pianist\03. The Pianist.csproj", "{D874D0FB-5EA3-4D1C-BF34-9C3B8503C542}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Activation Keys", "01. Activation Keys\01. Activation Keys.csproj", "{8457C794-5DA7-4608-821C-306D74E1714A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Activation Keys", "01. Activation Keys\01. Activation Keys.csproj", "{8457C794-5DA7-4608-821C-306D74E1714A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Emoji", "02. Emoji\02. Emoji.csproj", "{64937911-50FC-4832-9580-5C9B26B9ED42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8457C794-5DA7-4608-821C-306D74E1714A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8457C794-5DA7-4608-821C-306D74E1714A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8457C794-5DA7-4608-821C-306D74E1714A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64937911-50FC-4832-9580-5C9B26B9ED42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64937911-50FC-4832-9580-5C9B26B9ED42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64937911-50FC-4832-9580-5C9B26B9ED42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64937911-50FC-4832-9580-5C9B26B9ED42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

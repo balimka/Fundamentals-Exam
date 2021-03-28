@@ -24,7 +24,7 @@ namespace _01._Activation_Keys
 
                     if (activationKey.Contains(findKey))
                     {
-                        Console.WriteLine($"{activationKey} contains {findKey}.");
+                        Console.WriteLine($"{activationKey} contains {findKey}");
                     }
                     else
                     {
@@ -40,7 +40,7 @@ namespace _01._Activation_Keys
                     string startPart = activationKey.Substring(0, startIndex);
                     string endPart = activationKey.Substring(endIndex);
 
-                    if(direction == "Upper")
+                    if (direction == "Upper")
                     {
                         string toUpper = activationKey.Substring(startIndex, lenght).ToUpper();
                         activationKey = startPart + toUpper + endPart;
@@ -63,7 +63,7 @@ namespace _01._Activation_Keys
 
                     int endIndex = int.Parse(commands[2]);
 
-                    if (endIndex >= count)
+                    if (endIndex > count)
                     {
                         endIndex = count - 1;
                     }
