@@ -1,7 +1,6 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Collections.Generic;
-using System.Text;
-using System;
 
 namespace ConsoleApp1
 {
@@ -9,17 +8,22 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            List<int> numbers = Console.ReadLine().Split(',', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToList();
-            List<int> numbers1 = Console.ReadLine().Split(',').Select(int.Parse).ToList();
+            List<int> numbers = Console.ReadLine().Split(',').Select(int.Parse).ToList();
+            List<int> missing = new List<int>();
 
-            List<int> result = new List<int>();
-
-            for (int i = 0; i < numbers.Count; i++)
+            for (int i = 1; i <= numbers.Count; i++)
             {
-                result.Add(numbers[i]);
-                result.Add(numbers1[i]);
+                if (numbers.Contains(i))
+                {
+
+                }
+                else
+                {
+                    missing.Add(i);
+                }
             }
-            Console.Write(String.Join(',', result));
+
+            Console.Write(String.Join(",", missing));
         }
     }
 }
